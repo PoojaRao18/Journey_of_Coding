@@ -7,3 +7,5 @@ print(a-b) #prints differnce of a & b
 print(a*b) #prints product of a & b
 print(a/b) #prints quotient of a & b
 print(a%b) #prints remainder of a & b
+print(a//b) #prints same as % but rounds off the result
+
