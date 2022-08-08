@@ -1,0 +1,5 @@
+#Python code: Range of numbers into single line within range mentioned
+
+n = int(input())
+for i in range(1,n+1):
+    print(i , end="")
