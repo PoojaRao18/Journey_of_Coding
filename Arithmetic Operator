@@ -1,0 +1,9 @@
+#Python code: Arithmetic Operator
+
+a = int(raw_input())
+b = int(raw_input())
+print(a+b) #prints sum of a & b
+print(a-b) #prints differnce of a & b
+print(a*b) #prints product of a & b
+print(a/b) #prints quotient of a & b
+print(a%b) #prints remainder of a & b
