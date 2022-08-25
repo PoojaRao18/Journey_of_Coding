@@ -1,0 +1,13 @@
+n=int(input())
+for i in range(n):
+    word=input()
+    len_of_word=len(word)
+    for i in range(len_of_word):
+        if(i%2==0):
+            print(word[i],end='')
+    print(end=" ")   
+    for i in range(len_of_word):
+        if(i%2!=0):
+            print(word[i],end='')
+    print("\t")   
+        
