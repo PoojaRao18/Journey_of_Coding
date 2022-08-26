@@ -1,0 +1,18 @@
+phbook={}                  #creating empty dict
+n=int(input())
+for i in range(n):
+    name,ph_no=input().split()
+    phbook[name]=ph_no       #getting user inputs for dictionary
+lst=[]
+for i in range(n):
+    b=input()
+    lst.append(b)
+for i in range(n):
+    for j in phbook:
+        if(phbook.get(lst[i])):             #accessing values and keys accordingly in dictionary 
+            print(lst[i],end="=")
+            print(phbook.get(lst[i]))
+            break
+        else:
+            print("Not found")
+            break
